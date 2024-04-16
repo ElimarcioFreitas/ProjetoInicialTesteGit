@@ -24,7 +24,34 @@ git remote add origin - endereço do repositório para o repositório na nuvem(d
 
 git commit -m "nomeDoComit" - comitar tudo que foi adicionado no contrle de versão que ainda não foi sincronizado com o repositório.
 
+git push --set-upstream origin master - por padrão o primeiro comit vai para a branch master
+
 git push - sobre as alterações comitadas no repositório na nuvem
+
+====================================
+Depois de tudo configurado e feito o primeiro commit, as demais alterações devem subir para o remotório com os comandas
+
+git status - para saber tudo que sofreu alterações 
+git add . =  para adicionar tudo no controle de versão
+git commit -m "nomeDoComit" - Para identificar o commit
+git push - para subir as alterações no repositório nas núvens.
+
+====================================
+
+git reflog - para ver o histórico de alteração na branch
+
+git reset --hard IDdaAtualização - Desfazer uma alteração (voltar um comit) Com esse comando também é possível desfazer algo que foi apagado, ou seja, Ex. Eu exclui uma alteração, depois percebi que ela estava correta. Então posso desfazer e voltar ao arquivo que era originalmente.
+
+====================================
+
+git branc - mostra todos os branches no momento
+
+git branch nomeDoBranch - para criar um novo branch
+
+***Quando rodar o comando "git branch" para mostrar os branches atuais, o branch que está trabalho aparece com um asterisco no início (*)
+
+
+
 
 
 
