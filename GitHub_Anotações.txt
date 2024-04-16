@@ -1,0 +1,32 @@
+GitHub
+
+
+
+
+Precisa baixar o git (git download)
+Criar uma conta no gitHub(https://github.com/ElimarcioFreitas)
+Criar uma pasta no PC
+Abrir a pasta, Clicar com o botão direito e selecionar "Open Git Bash Here"
+
+Comandos
+
+git status - Mostra o status do repositório local, ou seja, o que já foi comitado e o que ainda está aguardando
+
+git add "nomedoarquivo.XXX" - adiciona o arquivo no controle de versão, porém ainda não subiu para o repositório.
+
+git add . - Adiciona todos os arquivos da pasta local no repositório, porem ainda não comitado.
+
+git config --global user.email - e-mail que cadastrou ao criar a conta no gitHub
+
+git config --global user.name - usuário que cadastrou ao criar a conta no gitHub
+
+git remote add origin - endereço do repositório para o repositório na nuvem(deve criar um repositório anteriormente) (https://github.com/ElimarcioFreitas/ProjetoInicialTesteGit)
+
+git commit -m "nomeDoComit" - comitar tudo que foi adicionado no contrle de versão que ainda não foi sincronizado com o repositório.
+
+git push - sobre as alterações comitadas no repositório na nuvem
+
+
+
+
+
